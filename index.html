@@ -74,7 +74,42 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <!---<img class="img-responsive" src="img/profile.png" alt="">-->
+                    <img class="mySlides" src="img/slideshow/DSC_0001.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0007.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0009.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0011.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0012.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0013.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0015.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0016.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0021.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0022.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0025.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0026.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0028.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0029.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0030.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0034.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0036.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0037.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0040.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0042.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0044.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0048.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0754.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0757.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0765.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0768.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0774.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0776.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0779.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0782.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0787.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0788.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0794.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0795.jpg">
+                    <img class="mySlides" src="img/slideshow/DSC_0796.jpg">
                     <div class="intro-text">
                         <span class="name">Wellesley Whiptails</span>
                         <hr class="star-light">
@@ -83,7 +118,25 @@
                 </div>
             </div>
         </div>
+
     </header>
+
+    <script>
+      var slideIndex = 0;
+      carousel();
+
+      function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+      }
+      slideIndex++;
+      if (slideIndex > x.length) {slideIndex = 1} 
+      x[slideIndex-1].style.display = "block"; 
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+    </script>
 
     <!-- Team Members -->
     <section id="portfolio">
@@ -313,7 +366,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
+                    <h2>Contact Us</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -376,19 +429,7 @@
                         <h3>Around the Web</h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                                <a href="https://twitter.com/thewholedamnbus" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
                             </li>
                         </ul>
                     </div>
