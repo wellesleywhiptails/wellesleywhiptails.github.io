@@ -29,7 +29,7 @@ h5,
 h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+
 }
 hr.star-light,
 hr.star-primary {
@@ -79,6 +79,7 @@ header .container {
 header img {
   display: block;
   margin: 0 auto 20px;
+  max-width: 900px; max-height: 800px;
 }
 header .intro-text .name {
   display: block;
